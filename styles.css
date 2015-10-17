@@ -1,0 +1,90 @@
+/*
+ * Sweet Fridays CSS
+ *
+ */
+
+
+/* BASE */
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #191919;
+}
+
+.page-main {
+  padding-bottom: 2em;
+}
+
+.footer .jumbotron {
+  margin-bottom: 0;
+}
+
+/* PATTERNS */
+.hero {
+  text-align: center;
+}
+
+.nav-link {
+  text-transform: uppercase;
+}
+
+.product-heading {
+  font-weight: 600;
+}
+
+.product-sub-heading {
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+/* HEADER */
+.header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .navbar-brand {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: .5em;
+  border: 1px solid;
+}
+
+.header .nav-wrap {
+}
+
+.header .nav .nav-link {
+  font-size: 1.1em;
+}
+
+.header .nav .nav-link:last-of-type {
+  padding-right: 0;
+}
+
+.contact-methods {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  margin-bottom: 1em;
+  font-size: 1.15em;
+  text-align: right;
+}
+
+.contact-methods .method {
+  line-height: 1;
+}
+
+.contact-methods .fa {
+  font-size: 24px;
+  margin-left: 15px;
+}
+
+/* LARGE SCREEN, DESKTOP */
+@media (max-width: 74.9em) {
+  .header {
+    padding-top: 5em;
+  }
+}
