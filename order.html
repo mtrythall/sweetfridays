@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Order | Sweet Fridays</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  </head>
+  <body>
+
+    <header class="header container">
+      <nav class="navbar navbar-inverse navbar-static-top">
+        <a class="navbar-brand" href="/">Sweet Fridays</a>
+        <p class="contact-methods">
+          <a href="tel:13028902345" class="method">(302) 890-2345</a>
+          <a href="https://facebook.com/" aria-label="Facebook" class="method"><i class="fa fa-facebook-official"></i></a>
+        </p>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="products.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="bulk-foods.html">Bulk Foods</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="special-events.html">Special Events</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="order.html">Order</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="page-main">
+      <div class="jumbotron hero">
+        <div class="container">
+          <h1>Place an Order</h1>
+          <p>Want your order fast? Call (302) 890-2345! Or, use our special form below and we'll be in contact.</p>
+        </div>
+      </div>
+      <div class="container">
+        <form action="" method="POST" class="contact-form">
+          <fieldset class="form-group">
+            <label for="contactName">Name</label>
+            <input type="text" class="form-control" id="contactName" placeholder="Your bame">
+          </fieldset>
+          <fieldset class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="contactEmail" placeholder="Enter email">
+            <small class="text-muted">We'll never share your email with anyone else.</small>
+          </fieldset>
+          <fieldset class="form-group">
+            <label for="contactPhone">Phone</label>
+            <input type="tel" class="form-control" id="contactPhone" placeholder="(123) 456-7890">
+          </fieldset>
+          <fieldset class="form-group">
+            <label for="contactMessage">What would you like?</label>
+            <textarea class="form-control" id="contactMessage" rows="6"></textarea>
+          </fieldset>
+          <button type="submit" class="btn btn-primary">Submit Order</button>
+        </form>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="jumbotron hero">
+        <div class="container">
+          <footer>
+            <p>Sweet Fridays is based on Hockessin, Delaware. Etc etc and all the other nice things you’d want to say at the bottom of the page.</p>
+            <p>&copy; Copyright 2015 Sweet Fridays</p>
+          </footer>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jQuery first, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+
+    <script type="text/javascript">
+    WebFontConfig = {
+      google: { families: [ 'Raleway:400,600,700:latin' ] }
+    };
+    (function() {
+      var wf = document.createElement('script');
+      wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+        '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+      wf.type = 'text/javascript';
+      wf.async = 'true';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(wf, s);
+    })(); </script>
+  </body>
+</html>
