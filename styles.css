@@ -27,6 +27,14 @@ body {
   text-transform: uppercase;
 }
 
+.product {
+  margin-bottom: 40px;
+}
+
+.product-left {
+  padding-right: 30px;
+}
+
 .product-heading {
   font-weight: 600;
 }
@@ -37,10 +45,13 @@ body {
   font-weight: 700;
 }
 
+.product-ingredients {
+  font-size: .95em;
+}
+
 /* HEADER */
 .header .container {
   display: flex;
-  justify-content: space-between;
 }
 
 .header .navbar-brand {
@@ -50,9 +61,6 @@ body {
 
   padding: .5em;
   border: 1px solid;
-}
-
-.header .nav-wrap {
 }
 
 .header .nav .nav-link {
@@ -82,7 +90,14 @@ body {
   margin-left: 15px;
 }
 
-/* LARGE SCREEN, DESKTOP */
+/* RESPONSIVE CHANGES */
+@media (max-width: 47.9em) {
+  .product-left {
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
 @media (max-width: 74.9em) {
   .header {
     padding-top: 5em;
